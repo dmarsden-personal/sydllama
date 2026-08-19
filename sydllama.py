@@ -44,7 +44,7 @@ def format_search_results(results: list[dict]) -> str:
 
     return "\n\n".join(formatted_results)
 
-st.set_page_config(page_title="Ms. Sydney's Fan Club", page_icon="✨")
+st.set_page_config(page_title="Ms. Sydney's Fan Club", page_icon="✨", initial_sidebar_state="collapsed")
 
 # --- 1. CONFIGURATION & SECRETS ---
 st.title("✨ Sydney's Cloud Agent")
